@@ -1,0 +1,20 @@
+@import "colors";
+@import "containers";
+@import "battery";
+@import "workspaces";
+
+
+#bar {
+    background-color: $third-pink;
+}
+
+#left, #center, #right {
+    /* border: 1px black solid; */
+    background-color: rgb(199, 161, 235);
+    /* min-height: 40px; */
+}
+
+#left, #right {
+    padding: 0 4px;
+}
+
