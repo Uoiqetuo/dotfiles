@@ -1,0 +1,27 @@
+[Desktop Entry]
+Version=1.0
+Name=Google Chrome
+
+GenericName=Web Browser
+GenericName[zh_TW]=網頁瀏覽器
+Comment=Access the Internet
+Comment[zh_TW]=連線到網際網路
+
+Exec=LANG=zh_TW.UTF-8 /usr/bin/google-chrome-stable %U
+StartupNotify=true
+Terminal=false
+Icon=google-chrome
+Type=Application
+Categories=Network;WebBrowser;
+MimeType=application/pdf;application/rdf+xml;application/rss+xml;appli>
+Actions=new-window;new-private-window;
+
+[Desktop Action new-window]
+Name=New Window
+Name[zh_TW]=開新視窗
+Exec=LANG=zh_TW.UTF-8 /usr/bin/google-chrome-stable
+
+[Desktop Action new-private-window]
+Name=New Incognito Window
+Name[zh_TW]=新增無痕式視窗
+Exec=LANG=zh_TW.UTF-8 /usr/bin/google-chrome-stable --incognito
