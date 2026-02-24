@@ -1,0 +1,10 @@
+.workspace {
+    .workspace-item {
+        min-width: 20px;
+        border-radius: 4px;
+        background-color: #00000033;
+        &.active {
+            background-color: #ffffff33;
+        }
+    }
+}

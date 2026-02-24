@@ -1,0 +1,20 @@
+@use "clock";
+@use "workspace";
+@use "tray";
+@use "shortcuts";
+
+.icon {
+   min-width: 20px;
+   min-height: 20px;
+}
+
+.widget {
+    border-radius: 4px;
+    background-color: #00000022;
+    padding: 4px;
+}
+
+.bar {
+    background: transparent;
+    padding: 8px;
+}

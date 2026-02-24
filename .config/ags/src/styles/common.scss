@@ -1,0 +1,20 @@
+// menubutton reset
+menubutton {
+    &:focus-visible {
+        outline: none;
+    }
+    > button {
+        background: none;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        outline: none;
+
+        &:hover,
+        &:active,
+        &:focus {
+            background: none;
+            box-shadow: none;
+        }
+    }
+}
