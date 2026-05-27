@@ -19,11 +19,11 @@ export default function Workspace() {
   
   const onWorkspaceClick = (ws: AstalHyprland.Workspace) => {
     if (ws.name?.startsWith("special")) {
-      hyprland.dispatch("togglespecialworkspace", "magic");
+      hyprland.dispatch(`hl.dsp.workspace.toggle_special("magic")`, "");
       return;
     };
     if (ws.id === focusedWorkspace()?.id) return;
-    hyprland.dispatch("workspace", ws.id.toString());
+    hyprland.dispatch(`hl.dsp.focus({workspace = ${ws.id}})`, "");
   }
 
   return (
