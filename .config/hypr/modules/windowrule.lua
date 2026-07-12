@@ -32,3 +32,13 @@ hl.layer_rule({
     blur = true,
     ignore_alpha = 0.1,
 })
+
+hl.layer_rule({
+    name = "side-panel",
+    match = {
+        namespace = "qs-side-panel",
+    },
+
+    animation = "slide right",
+    dim_around = true,
+})

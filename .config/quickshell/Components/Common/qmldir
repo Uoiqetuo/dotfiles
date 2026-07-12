@@ -1,0 +1,6 @@
+module qs.Components.Common
+RadioCard 1.0 RadioCard.qml
+Slider 1.0 Slider.qml
+StyledText 1.0 StyledText.qml
+Switch 1.0 Switch.qml
+TextField 1.0 TextField.qml

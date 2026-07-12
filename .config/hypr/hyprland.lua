@@ -36,7 +36,7 @@ hl.config({
     xwayland = {
         force_zero_scaling = true,
         use_nearest_neighbor = false
-    }
+    },
 })
 
 
@@ -44,12 +44,12 @@ hl.config({
 -- https://wiki.hypr.land/Configuring/Basics/Variables/
 hl.config({
     general = {
-        gaps_in          = 5,
+        gaps_in          = 6,
         gaps_out         = {
-            top = 1,
-            right = 20,
-            bottom = 20,
-            left = 20
+            top = 0,
+            right = 14,
+            bottom = 14,
+            left = 14,
         },
 
         border_size      = 2,
@@ -68,11 +68,13 @@ hl.config({
     },
 
     decoration = {
-        rounding         = 10,
+        rounding         = 8,
         rounding_power   = 2,
 
         active_opacity   = 1.0,
         inactive_opacity = 1.0,
+
+        dim_around       = 0.2,
 
         shadow           = {
             enabled      = true,
